@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8" />
@@ -139,9 +139,11 @@
 </head>
 <body>
     <div class="card" id="card">
-        <h1>Suemy 💖</h1>
+        <h1>Mi princesa 💖</h1>
         <p>
-            Desde que llegaste a mi vida, todo es más bonito.<br />
+            Desde que llegaste a mi vida, todo tuvo sentido.<br />
+            Como si de un efecto mariposa se tratase.<br />
+            El mas hermoso que jamas antes habia existido.<br />
             ¿Quieres ser mi San Valentín este año?
         </p>
         <div class="buttons">
@@ -153,7 +155,7 @@
     <div class="card hidden" id="success">
         <h1>¡Sabía que dirías que sí! 💘</h1>
         <p>Te amo muchísimo, Mi Princesa Hermosota Mamasota. </p>
-        <p>Gracias por hacerme tan feliz. 🌹</p>
+        <p>Eres el amor de mi vida, la mujer que siempre desee. 🌹</p>
     </div>
 
     <div class="hearts" id="hearts"></div>
@@ -166,9 +168,6 @@
     }
 
     function moveButton(button) {
-      const padding = 20; // margen para que nunca salga de pantalla
-      const maxX = window.innerWidth - button.offsetWidth - padding;
-      const maxY = window.innerHeight - button.offsetHeight - padding;
 
       const x = Math.random() * (window.innerWidth - button.offsetWidth);
       const y = Math.random() * (window.innerHeight - button.offsetHeight);
